@@ -15,8 +15,8 @@ public class PlayerService : IPlayerService
     private readonly ILeagueRepository _leagueRepo;
 
     public PlayerService(IPlayerRepository playerRepo,
-                            ITeamRepository teamRepo,
-                            ILeagueRepository leagueRepo)
+                         ITeamRepository teamRepo,
+                         ILeagueRepository leagueRepo)
     {
         _playerRepo = playerRepo;
         _teamRepo = teamRepo;
